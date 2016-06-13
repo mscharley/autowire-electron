@@ -72,8 +72,6 @@ class Window(val require: Require = global.require.asInstanceOf[Require])
   extends RendererProcess(require)
 {
   import scala.scalajs.concurrent.JSExecutionContext.Implicits.queue
-  val jQuery = require("jquery").asInstanceOf[JQueryStatic]
-
   val api: ApiClient = new ApiClient(electron.ipcRenderer)
   val pong: Future[String] = api[Api].ping().call()
 
