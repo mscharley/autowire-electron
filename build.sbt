@@ -6,7 +6,7 @@ lazy val autowireElectron = (project in file(".")).
   settings(
     organization := "com.mscharley",
     name := "autowire-electron",
-    version := "0.1.0",
+    version := "0.2.0-SNAPSHOT",
     scalaVersion := "2.11.8",
 
     // Info for Sonatype.
