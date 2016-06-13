@@ -2,7 +2,6 @@ package autowire.electronipc
 
 import electron.ipc
 import nodejs.raw
-import upickle.{default => upickle}
 
 import scala.collection.immutable
 import scala.concurrent.ExecutionContext
